@@ -11,6 +11,10 @@
 		C0A8455427E6D0D200577EA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A8455327E6D0D200577EA9 /* ContentView.swift */; };
 		C0A8455627E6D0D300577EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A8455527E6D0D300577EA9 /* Assets.xcassets */; };
 		C0A8455927E6D0D300577EA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A8455827E6D0D300577EA9 /* Preview Assets.xcassets */; };
+		C0A8456127E6D22200577EA9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0A8455F27E6D22200577EA9 /* README.md */; };
+		C0A8456227E6D22200577EA9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C0A8456027E6D22200577EA9 /* LICENSE */; };
+		C0A8456527E6D2C500577EA9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A8456427E6D2C500577EA9 /* WelcomeView.swift */; };
+		C0A8456727E87C2A00577EA9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A8456627E87C2A00577EA9 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		C0A8455327E6D0D200577EA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0A8455527E6D0D300577EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0A8455827E6D0D300577EA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0A8455F27E6D22200577EA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C0A8456027E6D22200577EA9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C0A8456427E6D2C500577EA9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C0A8456627E87C2A00577EA9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 		C0A8454527E6D0D200577EA9 = {
 			isa = PBXGroup;
 			children = (
+				C0A8456027E6D22200577EA9 /* LICENSE */,
+				C0A8455F27E6D22200577EA9 /* README.md */,
 				C0A8455027E6D0D200577EA9 /* Infinity */,
 				C0A8454F27E6D0D200577EA9 /* Products */,
 			);
@@ -51,8 +61,8 @@
 		C0A8455027E6D0D200577EA9 /* Infinity */ = {
 			isa = PBXGroup;
 			children = (
+				C0A8456327E6D2AB00577EA9 /* Views */,
 				C0A8455127E6D0D200577EA9 /* InfinityApp.swift */,
-				C0A8455327E6D0D200577EA9 /* ContentView.swift */,
 				C0A8455527E6D0D300577EA9 /* Assets.xcassets */,
 				C0A8455727E6D0D300577EA9 /* Preview Content */,
 			);
@@ -65,6 +75,16 @@
 				C0A8455827E6D0D300577EA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0A8456327E6D2AB00577EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0A8455327E6D0D200577EA9 /* ContentView.swift */,
+				C0A8456427E6D2C500577EA9 /* WelcomeView.swift */,
+				C0A8456627E87C2A00577EA9 /* AboutView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A8456127E6D22200577EA9 /* README.md in Resources */,
 				C0A8455927E6D0D300577EA9 /* Preview Assets.xcassets in Resources */,
+				C0A8456227E6D22200577EA9 /* LICENSE in Resources */,
 				C0A8455627E6D0D300577EA9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A8456727E87C2A00577EA9 /* AboutView.swift in Sources */,
 				C0A8455427E6D0D200577EA9 /* ContentView.swift in Sources */,
+				C0A8456527E6D2C500577EA9 /* WelcomeView.swift in Sources */,
 				C0A8455227E6D0D200577EA9 /* InfinityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
